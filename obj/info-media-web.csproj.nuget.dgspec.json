@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/martandsingh/Documents/Mywork/info-media-web/info-media-web.csproj": {}
+  },
+  "projects": {
+    "/Users/martandsingh/Documents/Mywork/info-media-web/info-media-web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martandsingh/Documents/Mywork/info-media-web/info-media-web.csproj",
+        "projectName": "info-media-web",
+        "projectPath": "/Users/martandsingh/Documents/Mywork/info-media-web/info-media-web.csproj",
+        "packagesPath": "/Users/martandsingh/.nuget/packages/",
+        "outputPath": "/Users/martandsingh/Documents/Mywork/info-media-web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martandsingh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
